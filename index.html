@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="google-site-verification" content="a97Mi-GimqpxNMznXPByCJ8nkRgXIMajza3_jk3hDzo" />
+
+    <!-- 🔍 SEO Meta Tags -->
+    <title>Attendance Calculator | 75% Rule Tracker for Students</title>
+    <meta
+      name="description"
+      content="Simple and free attendance calculator for students. Instantly find out how many days you can bunk or need to attend to meet the 75% attendance requirement. Fully responsive and easy to use."
+    />
+    <meta
+      name="keywords"
+      content="attendance calculator, 75% rule, student attendance tracker, bunk calculator, attendance tool, online attendance calculator, student tools"
+    />
+    <meta name="author" content="Your Name" />
+    <link
+      rel="canonical"
+      href="https://sghubatgit.github.io/Attendance-calculator/"
+    />
+
+    <!-- 📱 Open Graph (for social sharing) -->
+    <meta
+      property="og:title"
+      content="Attendance Calculator | 75% Rule for Students"
+    />
+    <meta
+      property="og:description"
+      content="A clean and student-friendly attendance calculator to track how many days you can safely bunk or need to attend."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://sghubatgit.github.io/Attendance-calculator/"
+    />
+    <meta
+      property="og:image"
+      content="https://sghubatgit.github.io/Attendance-calculator/banner.png"
+    />
+
+    <!-- 🐦 Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Attendance Calculator | 75% Rule for Students"
+    />
+    <meta
+      name="twitter:description"
+      content="Free attendance calculator for college students. Bunk smarter with our 75% rule tracker."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sghubatgit.github.io/Attendance-calculator/banner.png"
+    />
+
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🎓 Attendance Calculator (75% Rule)</h1>
+
+      <div class="form-group">
+        <label>Total Classes Held:</label>
+        <input type="number" id="totalClasses" required />
+      </div>
+
+      <div class="form-group">
+        <label>Classes Attended:</label>
+        <input type="number" id="attendedClasses" required />
+      </div>
+
+      <div class="form-group">
+        <label>Classes per Day:</label>
+        <input type="number" id="classesPerDay" required />
+      </div>
+
+      <button onclick="calculate()">Calculate</button>
+
+      <div class="output" id="result"></div>
+    </div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Attendance Calculator",
+        "url": "https://sghubatgit.github.io/Attendance-calculator/",
+        "applicationCategory": "EducationApplication",
+        "operatingSystem": "All",
+        "description": "Free tool to calculate attendance and bunk days based on the 75% rule.",
+        "creator": {
+          "@type": "Person",
+          "name": "Sunny Gautam"
+        }
+      }
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
